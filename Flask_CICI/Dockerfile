@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install -r -v requierments.txt
+RUN pip install -v -r  requierments.txt
 
 ENTRYPOINT ["python"]
 
